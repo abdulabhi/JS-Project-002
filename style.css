@@ -19,7 +19,7 @@
 
 #Display {
     grid-column: 1 / span 3; /* Full-width text input */
-    width: 90%;
+    width: 100%;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -40,10 +40,9 @@
     font-weight: 200;
 }
 
-body
+
 #btn1,#btn2,#btn3,#btn4,#btn5,#btn6
 {
-    background-color: #948e8e;
     border-radius: 10px;
 }
 
@@ -89,7 +88,7 @@ button {
 
   button:hover
   {
-    background: #befbff;
+    background-color: #befbff;
     border: 1px solid #334;
     transition: 0.8s;
   }
