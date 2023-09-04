@@ -4,7 +4,6 @@ function appendToDisplay(value) {
     document.getElementById('Display').value += value;
   }
 
- document.write(z);
   function calculate() {
     try {
       const result = eval(document.getElementById('Display').value);
